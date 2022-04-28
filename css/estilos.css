@@ -1,0 +1,18 @@
+figure{
+    text-align: center;
+}
+p{
+    text-align: center; text-decoration:underline;
+    font-family: monospace;
+}
+h1{
+    text-align: center; text-decoration:underline;
+    font-family: serif;
+}
+h2{
+    font-family: sans-serif;
+}
+h4{
+    font-family: serif;
+    text-decoration:underline;
+}
