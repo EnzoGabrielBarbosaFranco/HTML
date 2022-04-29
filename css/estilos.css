@@ -1,4 +1,5 @@
 figure{
+    border: 9px  solid darkviolet;
     text-align: center;
 }
 p{
@@ -6,6 +7,10 @@ p{
     font-family: monospace;
 }
 h1{
+    border-top: 9px solid green ;
+    border-right: 9px dashed blue ;
+    border-bottom: 9px solid pink;
+    border-left: 9px dotted orange ;
     text-align: center; text-decoration:underline;
     font-family: serif;
 }
@@ -17,5 +22,7 @@ h4{
     text-decoration:underline;
 }
 body{
-    font-family: "Helvetica","Lucida Grande",sans-serif;
+
+    background-color: #c42aea;
+    font-family: Helvetica,"Lucida Grande",sans-serif;
 }
