@@ -64,5 +64,8 @@ ul {
 }
 
 figure img {
-    width: 50%;
+    width: 100%;
+}
+.logo{
+    width:50%;
 }
