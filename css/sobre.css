@@ -1,6 +1,5 @@
 body{
-    background-image: url(https://thumbs.dreamstime.com/b/music-note-symbols-vector-background-song-notation-signs-swirling-party-music-wallpaper-creative-note-symbols-silhouettes-224878379.jpg);
-    font-family: Helvetica,"Lucida Grande",sans-serif;
+       font-family: Helvetica,"Lucida Grande",sans-serif;
     width: 940px;
     margin-left: auto;
     margin-right: auto;
@@ -19,7 +18,7 @@ h4{
     border-bottom: 4px solid black;
 }
 figure{
-    margin: 30px;
+    margin: 35px;
     padding: 15px;
     text-align: center;
     background-color: whitesmoke;
@@ -27,4 +26,10 @@ figure{
 }
 figcaption{
     margin-top: 10px;
+}
+ul{
+    list-style-image: circle;
+}
+ol{
+    list-style-type: style type num;;
 }
