@@ -8,19 +8,20 @@ body {
 
 p {
     font-size: 17px;
-    text-align: justify;
+    text-align: left;
 }
 
-h1 {
+.titulo {
+    font-size: 32px; 
     padding: 10px;
     text-align: justify;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     font-family: serif;
     background-color: #E1EDF2;
 }
 
-h2 {
+.subtitulo {
     text-align: justify;
     border-bottom: 4px solid black;
 }
@@ -68,4 +69,7 @@ figure img {
 }
 .logo{
     width:50%;
+}
+small{
+    font-size: 14px;
 }
