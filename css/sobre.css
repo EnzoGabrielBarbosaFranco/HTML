@@ -73,3 +73,24 @@ figure img {
 small{
     font-size: 14px;
 }
+.contato__secao{
+
+}
+.contato__secao--telefone{
+
+}    
+.contato__subtitulo{
+    display: inline;
+}
+.contato__info{
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+.contato__info--titulo{
+
+
+}
+.contato__info--descricao{
+
+
+}

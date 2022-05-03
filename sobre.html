@@ -12,7 +12,7 @@
 <body>
 
     <figure>
-        <img class="logo" src=img/logo.svg alt="MusicDot" />
+        <img class="logo" src=img/logo.svg title="MusicDot" />
         <figcaption> Logotipo </figcaption>
     </figure>
 
@@ -48,7 +48,7 @@
     <h2 id="historia" class="subtitulo"> História </h2>
 
     <figure class="familia-tupfeln">
-        <img  src=img/familia-tupfeln.jpg alt="Foto da família tüpfeln" />
+        <img src=img/familia-tupfeln.jpg alt="Foto da família tüpfeln" />
         <figcaption>
             <h3> Família Tüpfeln </h3>
         </figcaption>
@@ -144,38 +144,42 @@
 
         <p> <strong> Acesse <a href="index.html"> <i> nossa loja </strong></i></a></p>
 
-        <h2 class="titulo"> Contato </h2>
-        <h3> Correspondência </h3>
-        <small> <i> (todos os dias, das 9h às 18h) </i> </small>
-        <br>
-        <br>
-
-        <address>
-            AOVS Sistemas de Informática S.A 
+        <div class="contato__secao">
+            <h2 class="titulo"> Contato </h2>
+            <h3 class="contato__subtitulo"> Correspondência </h3>
+            <small> <i> (todos os dias, das 9h às 18h) </i> </small>
             <br>
-            <br>
-            Rua Vergueiro, 3185, 8º andar
-            <br>
-            <br>
-            Vila Mariana
-            <br>
-            <br>
-            São Paulo - SP 
-        </address>
-
-        <h3> Telefones </h3>
-        <small> <i> (segunda à sexta, das 9h às 18h) </i> </small>
-
-        <dl>
-            <dt> <strong> Pessoa Fisica: </strong> </dt>
-            <br>
-            <dd> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
             <br>
 
-            <dt> <strong> Pessoa Juridica: </strong> </dt>
-            <br>
-            <dd> <a href="tel://114118-2172"> (11) 4118-2172 </a></dd>
-        </dl>
+            <address class="contato__info">
+                AOVS Sistemas de Informática S.A
+                <br>
+                <br>
+                Rua Vergueiro, 3185, 8º andar
+                <br>
+                <br>
+                Vila Mariana
+                <br>
+                <br>
+                São Paulo - SP
+            </address>
+            </div>
+
+            <div class="contato__secao contato__secao--telefone">
+                <h3 class="contato__subtitulo"> Telefones </h3>
+                <small> <i> (segunda à sexta, das 9h às 18h) </i> </small>
+
+                <dl class="contato__info">
+                    <dt class="contato__info--titulo"> <strong> Pessoa Fisica: </strong> </dt>
+                    <br>
+                    <dd class="contato__info--descricao"> <a href="tel://114118-3319"> (11) 4118-3319 </a> </dd>
+                    <br>
+
+                    <dt class="contato__info--titulo"> <strong> Pessoa Juridica: </strong> </dt>
+                    <br>
+                    <dd class="contato__info--descricao"> <a href="tel://114118-2172"> (11) 4118-2172 </a></dd>
+                </dl>
+                </div>
 
 </body>
 
