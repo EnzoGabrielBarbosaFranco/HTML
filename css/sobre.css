@@ -13,7 +13,7 @@ p {
 }
 
 .titulo {
-    font-size: 32px; 
+    font-size: 32px;
     padding: 10px;
     text-align: justify;
     text-align: left;
@@ -69,53 +69,101 @@ ul {
 figure img {
     width: 100%;
 }
-.logo{
-    width:50%;
+
+.logo {
+    width: 50%;
 }
-small{
+
+small {
     font-size: 14px;
 }
-.contato__secao{
+
+.contato__secao {
     display: inline-block;
     vertical-align: top;
     margin-left: 16px;
 }
-.contato__secao--telefone{
+
+.contato__secao--telefone {
     margin-left: 32px;
-}    
-.contato__subtitulo{
+}
+
+.contato__subtitulo {
     display: inline;
 }
-.contato__info{
+
+.contato__info {
     margin: 16px 0 24px;
 }
+
 .contato__info--titulo,
-.contato__info--descricao{
+.contato__info--descricao {
     display: inline;
 
 }
-.contato__info--descricao{
+
+.contato__info--descricao {
     margin-left: 10px;
 }
-div{
+
+div {
     width: 400px;
 }
-img{
-    width: 100%;   
+
+img {
+    width: 100%;
 }
-.rodape{
+
+.rodape {
     padding: 1.75rem;
     font-size: 1.1rem;
     display: inline;
 }
-html{
+
+html {
     font-size: 16px;
 }
-.rodape__copyright{
+
+.rodape__copyright {
     display: inline;
     margin-left: 1em;
 }
-.rodape__logo{
+
+.rodape__logo {
     width: 6rem;
 }
 
+@media (max-width: 850px) {
+    .contato__secao {
+        display: block;
+        margin-left: 1em;
+    }
+}
+@media (max-width: 622px) {
+    .familia-tupfeln {
+        margin: 0 auto;
+        float: none;
+    }
+}
+@media (max-width: 446px) {
+    .contato__subtitulo {
+        display: block;
+        margin-bottom: 0;
+    }
+    .contato__info{
+        font-size: 0.92em;
+        padding: 5px;
+        border-left: 2px solid lightgrey;
+    }
+    .rodape{
+        font-size: 0.92em;
+    }
+}
+@media (max-width: 342px) {
+    .contato__info--descricao{
+        display: block;
+    }
+    .contato__info--titulo{
+        margin: 1em;
+    }
+}
