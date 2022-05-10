@@ -21,3 +21,15 @@
     display: inline-block;
     padding: 1.86em 1.42em;
 }
+@media (min-width: 640px) {
+    .cabecalho{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+    .cabecalho__menu{
+        background-color: transparent;
+    }
+}
