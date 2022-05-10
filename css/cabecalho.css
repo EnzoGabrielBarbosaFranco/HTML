@@ -12,6 +12,9 @@
     width: 14.5em;
 }
 .cabecalho__menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background: #272B3A87;
 }
 .cabecalho__item--menu {
